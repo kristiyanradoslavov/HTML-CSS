@@ -1,0 +1,29 @@
+#MenuList {
+    background-color: #444;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+
+}
+
+.NavButton {
+    text-size-adjust: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+    display: inline;
+
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCCCCC;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
