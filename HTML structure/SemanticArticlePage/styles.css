@@ -1,0 +1,39 @@
+body {
+    background-color: #e4e978;
+}
+
+.apple {
+    background-color: #f2f4c0;
+    border: 1px solid #b2ad7d;
+    padding: 5px 15px;
+    width: 640px;
+    margin: 15px 10px;
+}
+
+#first {
+    background-color: #f2f4c0;
+    border: 1px solid #b2ad7d;
+    padding: 5px 15px;
+    width: 640px;
+    margin: 15px 10px;
+}
+
+#second {
+    background-color: #f2f4c0;
+    border: 1px solid #b2ad7d;
+    padding: 5px 15px;
+    width: 640px;
+    margin: 15px 10px;
+}
+
+.comment {
+    font-style: italic;
+    color: #5c6e91;
+}
+
+.MainComment {
+    font-style: italic;
+    color: #5c6e91;
+    font-size: 24px;
+    padding-top: 15px;
+}

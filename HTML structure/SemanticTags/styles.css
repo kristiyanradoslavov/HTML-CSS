@@ -1,0 +1,20 @@
+body {
+    width: 480px;
+    background-color: #f9f7cf;
+    padding: 15px;
+
+}
+
+header {
+    background-color: hsl(36, 68%, 84%);
+    padding: 5px 15px;
+}
+
+footer {
+    background-color: #f2dcbb;
+    padding: 5px 15px;
+}
+
+main {
+    width: 478px;
+}
