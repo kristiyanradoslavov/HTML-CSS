@@ -51,3 +51,8 @@ a {
     text-decoration: none;
     padding: 10px;
 }
+
+
+button:hover {
+    background-color: rgb(106, 175, 106);
+}
