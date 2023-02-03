@@ -2,28 +2,35 @@
 
 .viewport {
     display: block;
-    height: 460px;
     position: relative;
+    height: 500px;
+
 }
 
-.viewport.first {
-	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,99,1) 21%, rgba(0,212,255,1) 100%);
+.first {
+    background: linear-gradient(90deg, rgba(4, 47, 50, 1) 0%, rgba(15, 96, 134, 1) 18%, rgba(15, 134, 103, 1) 70%);
 }
 
-.viewport.second {
-    background-color: coral;
+.second {
+    background: linear-gradient(90deg, rgba(128, 15, 134, 1) 0%, rgba(190, 45, 191, 1) 2%, rgba(200, 130, 29, 1) 76%);
 }
 
-img {
-    width: 60%;
-}
-
-
-.card {
+section {
     position: absolute;
     display: block;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 300px;
+}
 
+img {
+    width: 100%;
+}
+
+i {
+    color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
 }
