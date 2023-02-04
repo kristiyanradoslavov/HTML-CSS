@@ -1,0 +1,155 @@
+
+body {
+    padding: 30px;
+    width: 1000px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238) ;
+    
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2, h3, h4 {
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+}
+
+
+.nav-header {
+    border-bottom: 2px solid black;
+    position: relative;
+    padding: 0px;
+    display: block;
+    position: relative;
+}
+
+.heading-paragraph {
+    display: inline-block;
+    width: 70%;
+    margin-bottom: 0px;
+
+}
+
+.main-navigation {
+    display: inline-block;
+    width: 270px;
+    position: absolute;
+    right: 0px;
+
+}
+
+.nav-list li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+.nav-list {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px
+}
+
+/* heder finishing here */
+
+
+.main-article {
+    /* border: 1px solid black; */
+    position: relative
+}
+
+
+.first-section {
+    display: inline-block;
+    width: 70%;
+    /* border: 1px solid black; */
+}
+
+.first-asaid {
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    padding: 5px;
+    right: 160px;
+}
+
+.first-asaid li {
+    list-style-type: square;
+}
+
+.first-asaid li a {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+
+.first-image {
+    float: right;
+    padding: 10px;
+    border: solid 2px black;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25) 
+}
+
+.second-section {
+    width: 70%;
+    padding: 5px;
+}
+
+.second-asaid-wrapper{
+    position: relative
+}
+
+.wrapper-par{
+    width: 49%;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 8px;
+}
+
+.second-asaid {
+    width: 45%;
+    height: 80%;
+    display: inline-block;
+    border-left: 3px solid lightgrey;
+    position: absolute;
+    padding: 15px;
+    padding-top: 0px;
+    margin: 10px;
+    margin-top: 0px;
+    font-family: Georgia, serif;
+    font-weight: 300;
+    color: grey;
+}
+
+.author {
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    bottom: 30px;
+}
+
+.third-section {
+    width: 70%;
+}
+
+.second-img {
+    float: left;
+    padding: 10px;
+    border: solid 2px black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
