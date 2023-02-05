@@ -50,3 +50,8 @@ aside a {
     
 }
 
+.tasks li a{
+    text-decoration: none;
+    color: black;
+}
+
