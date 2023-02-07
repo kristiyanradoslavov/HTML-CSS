@@ -1,0 +1,52 @@
+body {
+    width: 600px;
+
+    display: grid;
+    grid-template-columns: 100px 300px 300px 300px;
+    padding: 20px;
+    gap: 10px;
+    background-color: white;
+    grid-template-areas: 
+    "first first first first"
+    "second third third third"
+    "forth forth forth forth";
+}
+
+.element {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+header {
+    grid-area: first;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+nav {
+    grid-area: second;
+    text-align: center;
+}
+
+nav .nav-list {
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav .nav-list li {
+    margin: 10px;
+}
+
+main {
+    grid-area: third;
+}
+
+main h2 {
+    font-size: 30px;
+}
+
+footer {
+    grid-area: forth;
+}
