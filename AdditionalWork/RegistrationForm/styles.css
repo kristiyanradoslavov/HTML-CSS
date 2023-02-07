@@ -1,0 +1,56 @@
+body {
+    width: 100%;
+    height: 900px;
+    border: 1 px solid black;
+    position: relative;
+
+}
+
+.bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form {
+    border: 1px solid black;
+    display: inline-block;
+    width: 750px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.form-img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+
+}
+
+.form .content {
+    padding: 30px;
+    margin-top: 50px;
+    margin-left: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.form .content .content-params {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 150px 150px;
+    grid-template-areas: 
+    "fist last"
+    "email email"
+    "password password"
+    "confirm confird";
+}
+
+input {
+    border-radius: 20px;
+
+}
