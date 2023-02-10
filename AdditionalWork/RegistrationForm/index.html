@@ -5,62 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
+    <title>Register Form</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <img class="bg-img" src="background.png" alt="background">
-    <main class="form">
-        <img class="form-img" src="form-background.png" alt="fomr-background">
-        <div class="content">
-            <h1>registration form</h1>
-            <div class="content-params">
-                <div class="name">
-                    <label for="First" class="">
-                        First name
-                    </label>
-                    <input type="text" name="First">
+
+    <section class="registration-section">
+        <div class="inside-container">
+            <img class="inside-img" src="form-background.png" alt="">
+
+            <div class="content">
+                <h1 class="container-header">Registration Form</h1>
+
+                <div class="boxes">
+                    <input type="text" name="Fname" class="input-container">
+                    <label for="Fname">First name</label>
+
+                    <input type="text" name="Lname" class="input-container">
+                    <label for="Lname">Last name</label>
                 </div>
 
-                <div class="second">
-                    <label for="Last">
-                        Last name
-                    </label>
-                    <input type="text" name="Last">
-                </div>
-
-                <div class="email">
-                    <label for="Email">
-                        Email
-                    </label>
-                    <input type="text" name="Email">
-                </div>
-
-                <div class="pass">
-                    <label for="Pass">
-                        Password
-                    </label>
-                    <input type="text" name="Pass">
-                </div>
-
-                <div class="c-pass">
-                    <label for="Pass">
-                        Confirm Password
-                    </label>
-                    <input type="text" name="Pass">
-                </div>
             </div>
-
-            <input type="checkbox" class="check">
-            <p class="terms">I accept the Terms of Use & Privacy Policy.</p>
-            
-            <button class="button">
-                <a href="">Register Now</a>
-            </button>
-
         </div>
-    </main>
+
+    </section>
 
 </body>
 
