@@ -1,0 +1,27 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+
+}
+
+
+span {
+    border: 1px solid black;
+    width: 80px;
+    height: 55px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    max-width: 15vw;
+    height: 35rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 80px;
+    gap: 10px;
+    align-content: center;
+}
