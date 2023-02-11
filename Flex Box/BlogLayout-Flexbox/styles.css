@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-origin: rgb(238, 238, 238);
+    padding: 50px;
+    padding-top: 20px;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+
+a{
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    /* float: right; */
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1050px;
+}
+
+.title {
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.first-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 2px solid black;
+}
+
+.first-section .main-info-first {
+    width: 50%;
+    flex-grow: 1;
+    
+
+}
+
+.first-section .main-info-first img{
+    float: right;
+}
+
+
+.first-section aside {
+    padding-right: 150px;
+    padding-left: 50px;
+}
