@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid rgb(0,0,0);
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 10px;
+
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
