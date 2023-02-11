@@ -6,19 +6,21 @@ body {
     background-color: lightgrey;
     display: flex;
     justify-content: center;
+    border: 2px solid black;
 }
 
 
-.container {
+ul {
     display: flex;
-    max-width: 70vw;
+    max-width: 75vw;
     flex-wrap: wrap;
     gap: 30px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 
-span{
+li{
+    list-style-type: none;
     background-color: white;
     border: 5px solid black;
     width: 150px;
@@ -29,6 +31,6 @@ span{
     
 }
 
-span img{
+li img{
     width: 110px;
 }
