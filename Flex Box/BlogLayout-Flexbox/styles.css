@@ -3,9 +3,11 @@
 }
 
 body {
-    background-origin: rgb(238, 238, 238);
+    background-color: rgb(238, 238, 238);
     padding: 50px;
     padding-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 h1, h2, h3 {
@@ -17,9 +19,21 @@ a{
     text-decoration: none;
 }
 
-img {
+.first-section .picture_1 {
+    display: flex;
     background-color: rgb(255, 255, 255);
-    /* float: right; */
+    float: right;
+    border: 2px solid black;
+    width: 200px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section img {
+    width: 180px;
+    height: 280px;
+    
 }
 
 .page {
@@ -32,28 +46,80 @@ img {
     width: 100%;
     font-weight: bold;
     font-size: 30px;
+    
 }
 
 .first-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-top: 2px solid black;
+    border-top: 3px solid black;
 }
 
 .first-section .main-info-first {
-    width: 50%;
+    max-width: 65%;
     flex-grow: 1;
     
 
-}
-
-.first-section .main-info-first img{
-    float: right;
 }
 
 
 .first-section aside {
     padding-right: 150px;
     padding-left: 50px;
+}
+
+
+.second-section {
+    max-width: 65%;
+}
+
+.split-p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+
+.left-side {
+    border-right: 3px solid lightgrey;
+    padding-right: 20px;
+    width: 50%;
+}
+
+.right-side {
+    padding-left: 20px;
+    width: 50%;
+    position: relative;
+    font-style: italic;
+    font-family: georgia, serif;
+    color: grey;
+
+}
+
+.name {
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+}
+
+
+.third-section {
+    max-width: 65%;
+}
+
+.picture_2 {
+    display: flex;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 220px;
+    height: 150px;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section .pic {
+    border: 1px solid black;
 }
