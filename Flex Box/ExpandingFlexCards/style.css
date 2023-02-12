@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(238, 238, 238);
+}
+
+.container {
+    display: flex;
+    width: 700px;
+    height: 250px;
+    gap: 20px;
+    background-color: transparent;
+    border-radius: 6px;
+
+}
+
+.container img {
+    border-radius: 6px;
+
+}
+
+.container div {
+    border-radius: 6px;
+    box-shadow: 0 0 10px 8px #ccc;
+
+    
+}
+
+.container :nth-child(1) img,
+.container :nth-child(3) img,
+.container :nth-child(4) img{
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container :nth-child(2){
+    display: flex;
+    width: 90%;
+    height: 100%;
+    background-color: black;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.container :nth-child(2) img{
+    display: flex;
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+}
+
