@@ -6,7 +6,7 @@ body {
     background-color: rgb(238, 238, 238);
     display: flex;
     flex-wrap: wrap;
-    width: 1000px;
+    width: 882px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -74,6 +74,15 @@ h3 {
     width: 1000px;
     flex-wrap: wrap;
     align-content: flex-start;
+}
+
+.flex section {
+    padding: 0px;
+}
+
+.flex section h3, 
+.flex section p {
+    padding: 15px 20px;
 }
 
 
