@@ -1,0 +1,68 @@
+/* Colors 
+bg- #f6f8f9
+button - #786eff
+par - #7a838c
+hedings = #273240
+
+
+*/
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    color: #273240;
+}
+
+section {
+    display: flex;
+    max-width: 1000px;
+    background-color: #f6f8f9;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 6px;
+}
+
+.text-info {
+    width: 40%;
+    padding: 50px;
+}
+
+section img {
+    width: 30%;
+    margin-right: 40px;
+}
+
+.text-info .secondary-heading {
+    font-size: 12px;
+}
+
+.text-info .main-heading {
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+.text-info p {
+    color: #7a838c;
+}
+
+.text-info h3 {
+    margin: 0;
+}
+
+section .btn {
+    border: 1px solid #7a838c;
+    padding: 10px 16px;
+    border-radius: 4px;
+}
+
+section .contact {
+    background-color: #786eff;
+    margin-right: 10px;
+}
+
+section .btn a {
+    text-decoration: none;
+    color: #273240;
+}
