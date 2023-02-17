@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 50px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+
+a{
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+.first-section .picture_1 {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    border: 2px solid black;
+    width: 200px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section img {
+    width: 180px;
+    height: 280px;
+    
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1050px;
+}
+
+.title {
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.first-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 3px solid black;
+}
+
+.first-section .main-info-first {
+    max-width: 65%;
+    flex-grow: 1;
+    
+
+}
+
+
+.first-section aside {
+    padding-right: 150px;
+    padding-left: 50px;
+}
+
+aside li{
+    list-style: square;    
+}
+
+
+.second-section {
+    max-width: 65%;
+}
+
+.split-p {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-end; */
+
+}
+
+.left-side {
+
+    border-right: 3px solid lightgrey;
+    padding-right: 10px;
+    width: 50%;
+}
+
+blockquote {
+    width: 50%;
+    position: relative;
+    font-style: italic;
+    font-family: Georgia, serif;
+    color: grey;
+
+}
+
+.name {
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+}
+
+
+.third-section {
+    max-width: 65%;
+}
+
+.picture_2 {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 220px;
+    height: 150px;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    background-color: rgb(255, 255, 255);
+}
