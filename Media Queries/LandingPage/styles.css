@@ -1,0 +1,223 @@
+/* colors
+purple - #ab5aa8 
+line-purple -#69357c
+bg - #fefefe
+footer - #fbfbfb
+footer- shadow - #e6e6e6
+
+
+*/
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css);
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.heading .main-heading h1 {
+    color: #ab5aa8;
+    font-size: 46px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading .main-heading h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: whitesmoke;
+}
+
+.heading nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+
+.heading nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+/* END OF HEADER */
+
+/* START OF NEED A WEBSITE */
+
+
+.need-website {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    margin-top: 100px;
+}
+
+.need-website .content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content button {
+    padding: 5px 15px;
+    border: 2px solid black;
+
+
+}
+
+.content button a {
+    text-decoration: none;
+    color: black;
+}
+
+/* END OF NEED A WEBSITE */
+
+/* START ABOUT US */
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.about-us h2 {
+    flex-shrink: 0;
+}
+
+.about-us .test {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid black;
+}
+
+.about-us .members {
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.about-us .members div {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.about-us .members img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.about-us .members .about {
+    margin-top: 30px;
+}
+
+.about-us .members div .name {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* End of About us */
+
+/* Start of Newsletter */
+
+.Newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: #69357c;
+    height: 200px;
+}
+
+.Newsletter .information {
+    display: flex;
+    width: 100px;
+    flex-shrink: 0;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    
+}
+
+.Newsletter .information p {
+    font-size: 28px;
+    color: white;
+    flex-shrink: 0;
+}
+
+.Newsletter .sign input,
+.Newsletter .sign button {
+    border: 1px solid black;    
+    border-radius: 4px;
+    padding: 2px 8px;
+}
+
+.Newsletter .sign button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*  End of Testimonials */
+
+/* Start of Footer */
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #fbfbfb;
+    box-shadow: 0 0 30px 30px #e6e6e6;
+    border: 3px solid #e6e6e6;
+    gap: 100px;
+    min-height: 200px;
+}
+
+.foot .general {
+    max-width: 300px;
+}
+
+.foot .general .head{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.foot a {
+    text-decoration: none;
+    color: black;
+}
