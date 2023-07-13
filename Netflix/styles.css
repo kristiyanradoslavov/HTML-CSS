@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222222;
+}
+
+
+header {
+    background-image: url(images/bg.jpg);
+    object-fit: fill;
+    height: 40vw;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 3;
+    max-height: 100px;
+}
+
+.logo {
+    /* width: 160px; */
+
+}
+
+.logo img {
+    /* height: 100px; */
+}
+
+.sign-btn {
+    color: white;
+    background-color: #e30914;
+    width: 78px;
+    height: 36px;
+    border-radius: 4px;
+    border: none;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.7);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.head-info {
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 180px;
+    z-index: 3;
+}
+
+.head-info > div {
+    width: 40%;
+}
+.head-info h1, p {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.head-info h1 {
+    font-size: 60px;
+    line-height: 1;
+}
+
+.head-info p {
+    font-size: 22px;
+}
+
+.reg-form {
+    display: flex;
+    justify-content: center;
+}
+
+.reg-form input {
+    width: 60%;
+    height: 60px;
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+}
+
+.reg-form .submit-email-btn {
+    height: 60px;
+    width: 40%;
+    color: white;
+    background-color: #e30914;
+    border: none;
+    font-size: 20px;
+    border-radius: 2px;
+}
+
+/* Log in form which is displayed when the Sign in btn is clicked */
+.log-in-form {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    color: white;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 6;
+    background-color: white;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.log-in-form > label, input{
+    font-size: 24px;
+    color: black;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.log-in-form > input {
+    border: 1px solid lightgrey;
+    font-size: 30px;
+    padding: 10px;
+    text-align: left;
+}
+
+.log-in-form > input::placeholder {
+    font-size: 20px;
+}
+
+
+/* Overlay which blurs the whole page except the Log in form */
+.general-overlay {
+    display: none;
+    background-color: rgb(0, 0, 0, 0.7);
+    z-index: 5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vw;
+}
+
+.close-form-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+/* Main section starting from here */
+
+/* First section */
+
+.main-sec {
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    height: 500px;
+    margin-top: 8px;
+}
+
+.main-sec h2 {
+    font-size: 40px;
+}
+
+.main-sec p {
+    font-size: 20px;
+}
+
+.main-sec img {
+    width: 500px;
+}
