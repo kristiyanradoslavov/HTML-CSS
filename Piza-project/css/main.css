@@ -85,15 +85,15 @@ header {
     position: sticky;
     top: 0px;
     background-color: white;
-    height: 160px;
+    height: 220px;
+    /* background-color: lightgrey; */
 }
 
 header .order {
     border-bottom: 1px solid black;
 }
 
-header .order,
-header .menu-info {
+header .order {
     padding: 0px 100px;
 }
 
@@ -123,6 +123,7 @@ header .order-wrapper {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    gap: 10px;
 }
 
 header .shopping-cart {
@@ -143,7 +144,6 @@ header .shopping-cart {
     max-width: 280px;
     height: 40px;
     box-shadow: 0px 4px 4px var(--btns-shadow);
-    border: 1px solid black;
 }
 
 header .shopping-cart i,
@@ -158,29 +158,80 @@ header .order-wrapper a {
     padding: 10px 18px;
 }
 
-header .menu-info {
-    margin-top: 15px;
+header .profile-btn {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
 }
 
-header .menu-info ul li {
-    list-style-type: none;
-    display: inline;
-    padding: 10px 16px;
-    font-size: 20px;
+header .drop-down-menu ul{
     color: black;
-    background-color: var(--grey-home);
-    border-radius: 40px;
-    margin-left: 10px;
+    list-style: none;
 }
 
-header .menu-info ul li a {
-    /* padding: 10px 16px; */
+.btn-wrapper {
+    position: relative;
 }
 
-header .menu-info {
-    display: flex;
+header .drop-down-menu {
+    border: 1px solid black;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: lightgrey;
+    border-radius: 6px;
+    display: none;
+
+}
+
+header .drop-down-menu ul {
+    margin: 0px;
+    width: 200px;
+}
+
+header .drop-down-menu:last-child{
+    border-bottom: none;
+}
+
+header .drop-down-menu ul li{
+    border-bottom: 1px solid black;
+}
+
+header .drop-down-menu ul li a {
     justify-content: flex-end;
 }
+
+/* MENU NAV START */
+
+.menu-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.menu-nav li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.menu-nav li {
+    margin: 20px;
+    width: 120px;
+    /* height:120px; */
+}
+
+.menu-nav li:hover {
+    /* border: 1px solid black; */
+    outline: none;
+    box-shadow: 0 0 0 1px black;
+}
+/* MENU NAV END */
+
 
 /* HEADER SECTION END */
 
@@ -214,7 +265,7 @@ main .pizza-list img {
 
 main .pizza-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: var(--grey-home);
     margin-bottom: 20px;
     margin-top: 20px;
@@ -225,6 +276,7 @@ main .pizza-list div {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 
 main .pizza-list div p {
@@ -238,6 +290,8 @@ main .pizza-list div p {
 /* FOOTER SECTION START */
 
 footer {
+    margin-top: 100px;
+    background-color: lightgrey;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -247,6 +301,7 @@ footer section ul {
     list-style-type: none;
     display: flex;
     padding: 10px;
+    padding-top: 40px;
 }
 
 footer section ul li {

@@ -1,38 +1,8 @@
-/* MENU NAV START */
-
 :root {
     --background-color: white;
     --grey-home: #D9D9D9;
     --btns-shadow: #8C675C;
 }
-
-.menu-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-}
-
-.menu-nav li a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-}
-
-.menu-nav li {
-    margin: 20px;
-    width: 120px;
-    /* height:120px; */
-}
-
-.menu-nav li:hover {
-    /* border: 1px solid black; */
-    outline: none;
-    box-shadow: 0 0 0 1px black;
-}
-/* MENU NAV END */
 
 /* PIZZA ELEMENTS START */
 .pizza-menu-section {
