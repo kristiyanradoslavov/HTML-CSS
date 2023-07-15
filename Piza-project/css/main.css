@@ -67,9 +67,7 @@ a {
 
 a:hover {
 
-    /* border: 1px solid black; */
     outline: none;
-    /* box-shadow: 0 0 0 1px black; */
     color: red;
 
 }
@@ -77,16 +75,12 @@ a:hover {
 
 /* START HEADER SECTION */
 
-/* header {
-    border: 1px solid black;
-} */
 
 header {
     position: sticky;
     top: 0px;
     background-color: white;
     height: 220px;
-    /* background-color: lightgrey; */
 }
 
 header .order {
@@ -163,6 +157,7 @@ header .profile-btn {
     border-radius: 50%;
     width: 45px;
     height: 45px;
+    cursor: pointer;
 }
 
 header .drop-down-menu ul{
@@ -182,7 +177,6 @@ header .drop-down-menu {
     background-color: lightgrey;
     border-radius: 6px;
     display: none;
-
 }
 
 header .drop-down-menu ul {
@@ -240,7 +234,7 @@ main {
     margin-top: 20px;
 }
 
-main .main-piza-section {
+main .main-pizza-section {
     background-image: url(/Piza-project/images/main-piza.jpg);
     background-size: cover;
     background-position: center;
@@ -282,6 +276,37 @@ main .pizza-list div {
 main .pizza-list div p {
     font-family: 'Nothing You Could Do';
     font-size: 26px;
+}
+
+main .location-information {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px;
+}
+
+main .map-img {
+    width: 800px;
+}
+
+main .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+main .contacts div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 250px;
+}
+
+main .contacts div i {
+    font-size: 50px;
 }
 
 /* MAIN SECTION END */

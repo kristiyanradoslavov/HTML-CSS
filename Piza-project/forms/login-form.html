@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Work+Sans&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <title>Pizza Delivery</title>
 </head>
@@ -93,79 +93,20 @@
     </header>
 
     <main>
-        <section class="main-piza-section">
-            <h3 class="main-pizza">
-                "Authentic Italian Pizza Made With Love"
-            </h3>
-        </section>
+        <form id="register-page">
+            <div class="wrap-box">
+                <h1>Login</h1>
 
-        <section class="first pizza-list">
-            <div>
-                <img src="images/home-pizza-2.png" alt="">
-                <p> The name of the pizza</p>
+                <label for="email">Email:</label>
+                <input type="text" name="email" maxlength="50" required="" id="email">
+
+                <label for="password">Password:</label>
+                <input type="text" name="password" maxlength="20" required="" id="password">
+
+                <input class="btn submit" type="submit" value="Create Profile">
             </div>
+        </form>
 
-            <div>
-                <img src="images/home-pizza-1.png" alt="">
-                <p> The name of the pizza</p>
-            </div>
-
-            <div>
-                <img src="images/home-pizza-3.png" alt="">
-                <p> The name of the pizza</p>
-            </div>
-
-            <div>
-                <img src="images/home-pizza-4.png" alt="">
-                <p> The name of the pizza</p>
-            </div>
-        </section>
-
-        <section class="second pizza-list">
-            <div>
-                <img src="images/home-pizza-3.png" alt="">
-                <p> The name of the pizza</p>
-            </div>
-
-            <div>
-                <img src="images/home-pizza-1.png" alt="">
-                <p> The name of the pizza</p>
-            </div>
-
-            <div>
-                <img src="images/home-pizza-2.png" alt="">
-                <p> The name of the pizza</p>
-            </div>
-
-            <div>
-                <img src="images/home-pizza-3.png" alt="">
-                <p> The name of the pizza</p>
-            </div>
-        </section>
-
-        <section class="location-information">
-
-            <div class="map-img">
-                <img src="images/location.png" alt="location-img">
-            </div>
-
-            <div class="contacts">
-                <div>
-                    <i class="fa-solid fa-map-location-dot"></i>
-                    <p>Congrese Maria Ss. Dei Sette Dolori, Piazza Addolorata, 71121, Foggia FG, Italia</p>
-                </div>
-
-                <div>
-                    <i class="fa-solid fa-phone"></i>
-                    <p>+456 7755 775</p>
-                </div>
-
-                <div>
-                    <i class="fa-regular fa-envelope" style="color: #f50505;"></i>
-                    <p>mammamia@pizzeria.com</p>
-                </div>
-            </div>
-        </section>
     </main>
 
     <footer>
@@ -235,6 +176,6 @@
         </p>
     </footer>
 </body>
-<script src="js/drop-down-menu.js"></script>
+<script src="../js/drop-down-menu.js"></script>
 
 </html>

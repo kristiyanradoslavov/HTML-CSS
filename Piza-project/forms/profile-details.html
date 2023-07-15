@@ -9,14 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Work+Sans&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <title>Pizza Delivery</title>
 </head>
 
 <body>
     <header>
-
         <section class="order">
             <h1 class="logo-wrapper">
 
@@ -58,114 +57,84 @@
                 </div>
             </h2>
         </section>
+    </header>
 
-        <section>
+    <main>
+        <section class="profile-navigation">
             <ul class="menu-nav" role="list">
                 <li>
                     <a href="#">
-                        <i class="fa-solid fa-pizza-slice"></i>
-                        <p>Pizza</p>
+                        Profile
                     </a>
                 </li>
 
                 <li>
                     <a href="#">
-                        <i class="fa-solid fa-bowl-food"></i>
-                        <p>Salad</p>
+                        Change Password
                     </a>
                 </li>
 
                 <li>
                     <a href="#">
-                        <i class="fa-solid fa-ice-cream"></i>
-                        <p>Desert</p>
+                        Order History
                     </a>
                 </li>
 
                 <li>
                     <a href="#">
-                        <i class="fa-solid fa-martini-glass-citrus"></i>
-                        <p>Drinks</p>
+                        Delete Profile
                     </a>
                 </li>
             </ul>
         </section>
-    </header>
 
-    <main>
-        <section class="main-piza-section">
-            <h3 class="main-pizza">
-                "Authentic Italian Pizza Made With Love"
-            </h3>
-        </section>
-
-        <section class="first pizza-list">
-            <div>
-                <img src="images/home-pizza-2.png" alt="">
-                <p> The name of the pizza</p>
+        <section class="profile-details">
+            <div class="image">
+                <img src="../images/avatar.jpg" alt="avatar-img">
+                <a href="#" class="btn upload">Upload photo</a>
             </div>
 
-            <div>
-                <img src="images/home-pizza-1.png" alt="">
-                <p> The name of the pizza</p>
-            </div>
+            <form id="register-page">
+                <div class="wrap-box">
+                    <h1>Profile Details</h1>
 
-            <div>
-                <img src="images/home-pizza-3.png" alt="">
-                <p> The name of the pizza</p>
-            </div>
+                    <div class="name-wrapper">
+                        <div class="first-name">
+                            <label for="First name" id="First-name">First name:</label>
+                            <input type="text" name="First name" maxlength="20" required="" id="First-name">
+                        </div>
 
-            <div>
-                <img src="images/home-pizza-4.png" alt="">
-                <p> The name of the pizza</p>
-            </div>
-        </section>
+                        <div class="last-name">
+                            <label for="Last name" id="Last-name">Last name:</label>
+                            <input type="text" name="Last name" maxlength="20" required="" id="Last-name">
+                        </div>
+                    </div>
 
-        <section class="second pizza-list">
-            <div>
-                <img src="images/home-pizza-3.png" alt="">
-                <p> The name of the pizza</p>
-            </div>
 
-            <div>
-                <img src="images/home-pizza-1.png" alt="">
-                <p> The name of the pizza</p>
-            </div>
+                    <div class="contact-wrapper">
+                        <div class="phone">
+                            <label for="Phone number">Phone number:</label>
+                            <input type="text" name="Phone number" maxlength="20" required="" id="Phone-number">
+                        </div>
+                        <div class="email">
+                            <label for="email">Email:</label>
+                            <input type="text" name="email" maxlength="50" required="" id="email">
+                        </div>
 
-            <div>
-                <img src="images/home-pizza-2.png" alt="">
-                <p> The name of the pizza</p>
-            </div>
+                    </div>
 
-            <div>
-                <img src="images/home-pizza-3.png" alt="">
-                <p> The name of the pizza</p>
-            </div>
-        </section>
 
-        <section class="location-information">
+                    <label for="City">City:</label>
+                    <input type="text" name="City" maxlength="50" required="" id="City">
 
-            <div class="map-img">
-                <img src="images/location.png" alt="location-img">
-            </div>
+                    <label for="email">Street:</label>
+                    <input type="text" name="Street" maxlength="50" required="" id="Street">
 
-            <div class="contacts">
-                <div>
-                    <i class="fa-solid fa-map-location-dot"></i>
-                    <p>Congrese Maria Ss. Dei Sette Dolori, Piazza Addolorata, 71121, Foggia FG, Italia</p>
+                    <input class="btn submit" type="submit" value="Edit Profile">
                 </div>
-
-                <div>
-                    <i class="fa-solid fa-phone"></i>
-                    <p>+456 7755 775</p>
-                </div>
-
-                <div>
-                    <i class="fa-regular fa-envelope" style="color: #f50505;"></i>
-                    <p>mammamia@pizzeria.com</p>
-                </div>
-            </div>
+            </form>
         </section>
+
     </main>
 
     <footer>
@@ -235,6 +204,6 @@
         </p>
     </footer>
 </body>
-<script src="js/drop-down-menu.js"></script>
+<script src="../js/drop-down-menu.js"></script>
 
 </html>
